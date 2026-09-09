@@ -1,5 +1,5 @@
 name: 🚀 Project Idea
-description: Propose a new project for the IST Lab Project Gallery
+description: Propose a new project for the ISD Lab Project Gallery
 title: "[PROJECT] "
 labels:
   - idea
@@ -9,7 +9,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 🚀 IST Lab Project Proposal
+        ## 🚀 ISD Lab Project Proposal
 
         Thanks for proposing a project!
 
