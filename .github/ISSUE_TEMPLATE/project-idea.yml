@@ -1,0 +1,139 @@
+name: 🚀 Project Idea
+description: Propose a new project for the IST Lab Project Gallery
+title: "[PROJECT] "
+labels:
+  - idea
+  - under-review
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 🚀 IST Lab Project Proposal
+
+        Thanks for proposing a project!
+
+        Please provide enough information for others to understand
+        the idea and decide whether they would like to work on it.
+
+  - type: input
+    id: project-name
+    attributes:
+      label: Project name
+      description: Give your project a short, descriptive name.
+      placeholder: "Example: AI-based Lab Attendance System"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Project description
+      description: Explain your project idea in a few paragraphs.
+      placeholder: |
+        What do you want to build?
+        What problem does it solve?
+        Why would it be useful?
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem being solved
+      description: What real-world or research problem does this project address?
+      placeholder: "Describe the problem..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How do you think the problem could be solved?
+      placeholder: "Describe your proposed approach..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - AI/ML
+        - Web
+        - Mobile
+        - IoT
+        - Robotics
+        - Cybersecurity
+        - Cloud
+        - Data Science
+        - Research
+        - Other
+    validations:
+      required: true
+
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+    validations:
+      required: true
+
+  - type: input
+    id: technologies
+    attributes:
+      label: Suggested technologies
+      description: What technologies, languages, frameworks, or hardware might be useful?
+      placeholder: "Python, React, Raspberry Pi, TensorFlow..."
+
+  - type: input
+    id: duration
+    attributes:
+      label: Expected duration
+      placeholder: "Example: 6-8 weeks"
+
+  - type: input
+    id: team-size
+    attributes:
+      label: Suggested team size
+      placeholder: "Example: 3-4 people"
+
+  - type: textarea
+    id: skills
+    attributes:
+      label: Skills required
+      placeholder: |
+        Python
+        Machine Learning
+        React
+        etc.
+
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Add papers, articles, repositories, or other useful links.
+      placeholder: "https://..."
+
+  - type: input
+    id: proposer
+    attributes:
+      label: Your GitHub username
+      placeholder: "@username"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I am interested in working on this project myself.
+          required: false
+        - label: I am looking for other contributors.
+          required: false
